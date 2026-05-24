@@ -26,7 +26,7 @@ public class CategoriaControlador {
     private ResponseEntity<Categoria> saveCategoria(@RequestBody Categoria categoria) {
         try {
             Categoria categoriaGuardada = categoriaServicio.save(categoria);
-            return ResponseEntity.created(new URI("/arma/"+categoriaGuardada.getId())).body(categoriaGuardada);
+            return ResponseEntity.created(new URI("/categoria/"+categoriaGuardada.getId())).body(categoriaGuardada);
         }catch (Exception e) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
         }
