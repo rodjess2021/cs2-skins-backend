@@ -102,7 +102,7 @@ public class SkinServicio implements SkinRepositorio{
 
     @Override
     public <S extends Skin> S save(S entity) {
-        return null;
+        return skinRepositorio.save(entity);
     }
 
     @Override
