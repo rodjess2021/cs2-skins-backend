@@ -13,7 +13,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/arma/")
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = {"http://localhost:4200/",
+                        "https://cs2-skins-blond.vercel.app"})
 public class ArmaControlador {
 
     @Autowired
