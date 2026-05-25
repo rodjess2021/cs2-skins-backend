@@ -107,7 +107,7 @@ public class SkinServicio implements SkinRepositorio{
 
     @Override
     public <S extends Skin> List<S> saveAll(Iterable<S> entities) {
-        return List.of();
+        return skinRepositorio.saveAll(entities);
     }
 
     @Override
