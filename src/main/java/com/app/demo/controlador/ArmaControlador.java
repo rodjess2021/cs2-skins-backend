@@ -33,8 +33,13 @@ public class ArmaControlador {
         }catch (Exception e) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
         }
+    }
 
+    @DeleteMapping("/{id}")
+    public ResponseEntity<?> deleteArma(@PathVariable Long id) {
 
+        armaServicio.deleteById(id);
 
+        return ResponseEntity.ok("Arma eliminada correctamente");
     }
 }
