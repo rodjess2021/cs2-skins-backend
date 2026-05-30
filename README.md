@@ -164,6 +164,12 @@ Ejemplo:
 }
 ```
 
+```http
+DELETE /arma/{id}
+```
+
+Elimina un arma por id.
+
 ---
 
 ## ⚙️ Instalación local
@@ -171,7 +177,7 @@ Ejemplo:
 Clonar repositorio:
 
 ```bash
-git clone https://github.com/TU-USUARIO/cs2-skins-backend.git
+git clone https://github.com/rodjess2021/cs2-skins-backend.git
 ```
 
 Ingresar al proyecto:
@@ -204,7 +210,7 @@ http://localhost:8080
 
 Repositorio frontend:
 
-https://github.com/TU-USUARIO/cs2-skins-frontend
+https://github.com/rodjess2021/cs2-skins-frontend
 
 Aplicación desplegada:
 
@@ -227,7 +233,7 @@ https://cs2-skins-blond.vercel.app
 
 ## 👨‍💻 Autor
 
-Desarrollado por **Rodrigo (rodjess.pe)**
+Desarrollado por **Rodrigo Jesús**
 
 Instagram:
 
